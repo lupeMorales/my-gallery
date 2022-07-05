@@ -73,9 +73,12 @@
   grid-template-columns: repeat(3, auto);
   grid-auto-rows: 1fr;
   justify-content: center;
-  padding: 20px;
   margin-top: 20px;
   gap: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 .img {
   width: 100%;
