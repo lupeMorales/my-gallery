@@ -11,9 +11,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
 }
-/* .header {
-  width: 100%;
-} */
+
 .infoProfile {
   width: 100%;
   margin-top: 40px;
@@ -26,6 +24,13 @@
   border-radius: 15px;
   margin-bottom: 10px;
 }
+@media all and (min-width: 1200px) {
+  .infoProfile img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
 .infoProfile h1 {
   font-size: 1.4rem;
   color: var(--main-font);
@@ -33,12 +38,22 @@
   text-transform: capitalize;
   text-align: center;
 }
+@media all and (min-width: 1200px) {
+  .infoProfile h1 {
+    font-size: 2.4rem;
+  }
+}
 .infoProfile p {
   font-size: 1rem;
   color: var(--secondary-font);
   font-weight: 600;
   text-transform: capitalize;
   text-align: center;
+}
+@media all and (min-width: 1200px) {
+  .infoProfile p {
+    font-size: 1.4rem;
+  }
 }
 
 .container-cards {
@@ -57,15 +72,33 @@
   padding: 10px;
   text-transform: capitalize;
 }
+@media all and (min-width: 1200px) {
+  .card {
+    width: 100px;
+    height: 70px;
+    padding: 15px;
+  }
+}
+
 .card h2 {
   color: var(--main-font);
   text-align: center;
   font-size: 1.2rem;
 }
+@media all and (min-width: 1200px) {
+  .card h2 {
+    font-size: 1.8rem;
+  }
+}
 .card p {
   color: var(--secondary-font);
   text-align: center;
   font-size: 1.2rem;
+}
+@media all and (min-width: 1200px) {
+  .card p {
+    font-size: 1.4rem;
+  }
 }
 
 .container-items {
@@ -80,6 +113,7 @@
   margin-right: auto;
   max-width: 800px;
 }
+
 .img {
   width: 100%;
   height: 100%;
